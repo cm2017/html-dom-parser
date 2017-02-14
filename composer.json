@@ -1,0 +1,18 @@
+{
+    "name": "ammadeuss/php-simple-html-dom-parser",
+    "description": "Laravel wrapper for the PHP Simple HTML DOM Parser package",
+    "type": "library",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ammadeuss Raducan",
+            "email": "raducan@ammadeuss.ro"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ammadeuss\\PhpSimpleHtmlDomParser\\": "" }
+    }
+}
