@@ -1,5 +1,5 @@
 {
-    "name": "ammadeuss/php-simple-html-dom-parser",
+    "name": "ammadeuss/html-dom-parser",
     "description": "Laravel wrapper for the PHP Simple HTML DOM Parser package",
     "type": "library",
     "require": {
@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Ammadeuss\\PhpSimpleHtmlDomParser\\": "" }
+        "psr-4": { "Ammadeuss\\HtmlDomParser\\": "" }
     },
     "minimum-stability": "dev"
 }
