@@ -3,7 +3,7 @@
 namespace Ammadeuss\HtmlDomParser;
 
 use Illuminate\Support\ServiceProvider;
-use Sunra\HtmlDomParser;
+use Sunra\PhpSimple\HtmlDomParser;
 
 class HtmlDomParserServiceProvider extends ServiceProvider
 {
@@ -24,7 +24,7 @@ class HtmlDomParserServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('HTMLDomParser', function ($app) {
+        $this->app->bind('HTML2DomParser', function ($app) {
             return new HtmlDomParser;
         });
     }
