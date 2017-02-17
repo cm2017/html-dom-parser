@@ -15,5 +15,5 @@
     "autoload": {
         "psr-4": { "Ammadeuss\\HtmlDomParser\\": "" }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "master"
 }
